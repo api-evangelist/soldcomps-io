@@ -1,0 +1,28 @@
+aid: soldcomps-io
+name: SoldComps.io
+description: 'SoldComps.io is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/soldcomps-io/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-14'
+modified: '2026-11-14'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.soldcomps.io
+- type: Documentation
+  url: https://www.soldcomps.io/docs
+x-submission-notes: eBay sold-comps REST API (US/UK/DE, 90 days, medians); OpenAPI 3.1, llms.txt, MCP,
+  apis.json at /apis.json. NOT sold-comps.com. Approved by Kin 2026-11-14
+x-submission-probe: openapi.json 200
